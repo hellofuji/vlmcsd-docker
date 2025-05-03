@@ -1,8 +1,8 @@
-version: "3.7"
 services:
 
   vlmcsd:
-    build: .
+    image: hellofuji/vlmcsd:1.0
+    container_name: vlmcsd
     ports:
       - "1688:1688"
     restart: always
